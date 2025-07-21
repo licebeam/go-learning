@@ -46,6 +46,7 @@ func detectCircle(g geometry) {
 }
 
 func main() {
+	fmt.Println("test commit")
 	fmt.Println(math.Abs(10))
 	r := rect{width: 3, height: 4}
 	c := circle{radius: 5}
