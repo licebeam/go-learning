@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+import ("fmt" "iter" "slices")
 
 func SlicesIndex[S ~[]E, E comparable](s S, v E) int {
 	for i := range s {
